@@ -20,7 +20,7 @@ import com.javatpoint.springbootexample.exception.ResourceNotFoundException;
 import com.javatpoint.springbootexample.model.Employee;
 import com.javatpoint.springbootexample.repository.EmployeeRepository;
 
-@CrossOrigin(origins= {"http://localhost:3000", "http://localhost:4200", "http://localhost:8081"})ji
+@CrossOrigin(origins= {"http://localhost:3000", "http://localhost:4200", "http://localhost:8081"})
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
